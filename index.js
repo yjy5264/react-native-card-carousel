@@ -1,3 +1,3 @@
-const carouselCard = require('./lib/Card');
+const CarouselCard = require('./lib/Card');
 
-module.exports = carouselCard;
+module.exports = CarouselCard;
