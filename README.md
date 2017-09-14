@@ -16,10 +16,11 @@ npm install react-native-card-carousel --save
 import CarouselCard from 'react-native-card-carousel'
 
 <CarouselCard
-    data = {itemArr}
-    onPress = {item => {}}
-    contentRender = {item => {
-        return <CustomView item = {item} />;
-    }} 
+    height={250}
+    autoplay
+    interval={4000}
+    data={itemArr}
+    onPress={item => {}}
+    contentRender={item => <CustomView item = {item} />}
 />
 ```
